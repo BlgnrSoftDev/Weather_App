@@ -1,0 +1,15 @@
+.view{
+    margin-top: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 760px;
+}
+
+
+.flex-start{
+    justify-content: flex-start !important;
+}

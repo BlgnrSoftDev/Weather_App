@@ -1,0 +1,13 @@
+.Main{
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+
+.close{
+    display: none !important;
+}
+
+.show{
+    display: flex !important;
+}

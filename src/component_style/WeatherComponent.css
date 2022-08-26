@@ -1,0 +1,95 @@
+.bottom-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1rem;
+    animation-name: slidetop;
+    animation-duration: 1s;
+}
+
+@keyframes slidetop {
+    from{
+        transform: translateY(100%);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}
+
+.bottom-info-closer{
+    display: none !important;  
+}
+
+.warning{
+    padding: 0.5rem;
+    width: 40rem;
+    margin: 0 2rem 2rem 0;
+    color: #c3c3c3;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.curr-status{
+    display: flex;
+    flex-direction: column;
+    margin-left: -6rem;
+    margin-top: -2rem;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.warning{
+    margin-right: -6rem;
+}
+
+
+.horizontal{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.province{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #c3c3c3;
+    width: 21rem;
+    overflow: hidden;
+}
+
+.currDegree{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #c3c3c3;
+}
+
+.slider-link{
+    cursor: pointer;
+    margin-right: 2rem;
+    color: #c3c3c3;
+    font-weight: 500;
+
+}
+
+.slider-link:hover{
+    color: #c3c3c3DE;
+    animation-name: movement;
+    animation-duration: 300ms;
+}
+
+
+@keyframes movement {
+    0% {
+        transform: translateX(0%);
+    }
+
+    50% {
+        transform: translateX(10%);
+    }
+
+    100% {
+        transform: translateX(-10%);
+    }
+}
